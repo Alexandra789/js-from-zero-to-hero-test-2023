@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>CV</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="#about_myself" class="nav-list__link">About myself</a></li>
+                    <li class="nav-list__item"><a href="#work_experience" class="nav-list__link">Work experience</a>
+                    </li>
+                    <li class="nav-list__item"><a href="#education" class="nav-list__link">Education</a></li>
+                    <li class="nav-list__item"><a href="#contacts" class="nav-list__link">Contacts</a></li>
+                </ul>
+                <div class="mobile-nav-list" id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul class="nav-list">
+                        <li class="nav-list__item"><a href="#about_myself" class="nav-list__link">About myself</a></li>
+                        <li class="nav-list__item"><a href="#work_experience" class="nav-list__link">Work experience</a>
+                        </li>
+                        <li class="nav-list__item"><a href="#education" class="nav-list__link">Education</a></li>
+                        <li class="nav-list__item"><a href="#contacts" class="nav-list__link">Contacts</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="main-content">
+                <section class="about-myself" id="about_myself">
+                    <div class="info-wrapper">
+                        <h1 class="about-myself__name">Zakovinko Alexandra</h1>
+                        <h2 class="about-myself__position">Junior Front-End Developer</h2>
+                        <h2 class="about-myself__title">About myself:</h2>
+                        <p class="about-myself__text">
+                            Junior Frontend Developer with 8 months of experience in web development.
+                            Now I study React and Vue by myself. I have completed 2 courses and have
+                            several pet projects where I got the necessary knowledge to start my career.
+                        </p>
+                    </div>
+                    <div class="slider">
+                        <a class="slider__previous-btn">&#10094;</a>
+                        <div class="slider__item">
+                            <img src="assets/img/photo1.jpg"
+                                 alt="my photo">
+                        </div>
+                        <div class="slider__item">
+                            <img src="assets/img/photo2.jpg"
+                                 alt="my photo">
+                        </div>
+                        <div class="slider__item">
+                            <img src="assets/img/photo3.jpg"
+                                 alt="my photo">
+                        </div>
+                        <a class="slider__next-btn">&#10095;</a>
+                    </div>
+                </section>
+                <section class="work-experience" id="work_experience">
+                    <h2 class="work-experience__title">Work experience</h2>
+                    <p class="work-experience__timeline">September 2021 - May 2022</p>
+                    <p class="work-experience__company">Company: SmartApp</p>
+                    <p class="work-experience__position">Position: Junior Frontend Developer</p>
+                    <ul class="responsibilities-list">
+                        <h3 class="responsibilities-list__title">Responsibilities:</h3>
+                        <li>Web site development (online stores, corporate sites, etc.) on CMS Wordpress.)</li>
+                        <li>Creating layout from figma template</li>
+                        <li>Editing existing site pages</li>
+                        <li>Responsive, cross-browser layout using Bootstrap, jQuery and vanilla JS</li>
+                        <li>Worked with swiper.js, fancybox and gsap.js</li>
+                    </ul>
+                </section>
+                <section class="education" id="education">
+                    <h2 class="education__title">Education</h2>
+                    <p class="education__timeline">2016-2020</p>
+                    <p class="education__university">Belarusian National Technical University</p>
+                    <p class="education__department">Department: Software of information systems and technologies</p>
+                </section>
+                <section class="courses">
+                    <h2 class="education__title">Courses</h2>
+                    <div class="course">
+                        <p class="education__timeline">2020-2020</p>
+                        <p class="education__university">The Rolling Scopes School</p>
+                        <p class="education__department">JavaScript / Front-end</p>
+                    </div>
+                    <div class="course">
+                        <p class="education__timeline">2022-2022</p>
+                        <p class="education__university">Udemy</p>
+                        <p class="education__department">JavaScript + React</p>
+                    </div>
+                </section>
+                <section class="my-contact" id="contacts">
+                    <h2 class="my-contact__title">Contact me</h2>
+                    <ul class="contacts-list">
+                        <li class="contacts-list__item">
+                            <a href="https://telegram.me/UsernameKW">
+                                <img src="assets/img/telegram-icon.png" alt="telegram icon">
+                                UsernameKW
+                            </a>
+                        </li>
+                        <li class="contacts-list__item">
+                            <a href="mailto:zakovinko99@gmail.com">
+                                <img src="assets/img/email-icon.png" alt="email icon">
+                                zakovinko99@gmail.com </a>
+                        </li>
+                        <li class="contacts-list__item">
+                            <a href="https://github.com/Alexandra789 ">
+                                <img src="assets/img/git-icon.png" alt="git icon">
+                                Alexandra789 </a>
+                        </li>
+                        <li class="contacts-list__item">
+                            <a href="tel:+375447155494">
+                                <img src="assets/img/phone-icon.png" alt="phone icon">
+                                +375447155494</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+        <div class="footer__content">
+            <p class="footer__text">js from zero to hero test 2023</p>
+        </div></div>
+    </footer>
+
+    <script src="/src/js/menu.js"></script>
+    <script src="/src/js/swiper.js"></script>
+</body>
+</html>
